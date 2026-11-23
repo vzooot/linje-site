@@ -11,21 +11,22 @@
 <nav><a href="index.html">Linje</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 <h1>Privacy policy</h1>
 <p class="lead">Last updated 23 November 2026.</p>
-<p class="note">In short: Linje has no accounts, no advertising, no analytics and no tracking. Its maker collects nothing about you and has no server of its own.</p>
+<p class="note">In short: Linje has no accounts, no advertising, no analytics and no tracking. Its maker collects nothing about you. Its one server only passes on the buses' positions and keeps nothing.</p>
 <h2>What the app uses, and where it goes</h2>
 <p><strong>Your location.</strong> If you allow it, the app uses your position on your phone to show the stations nearest to you and where you are on the maps. When you plan a trip "from my position", the coordinates of that position are sent to SL's journey planner to work out the trip, as any journey planner must. You can use the app without sharing your location.</p>
 <p><strong>The camera.</strong> The AR view uses the camera to show the network standing in the room in front of you. The picture stays on your phone. Nothing is recorded or sent.</p>
 <p><strong>Notifications.</strong> The "wake me before my stop" alert is created on your phone. Nothing is sent to a server.</p>
 <p><strong>Your settings.</strong> Choices such as which map you last used are stored on your phone only.</p>
 <h2>Services the app talks to</h2>
-<p>To show live information, the app connects straight from your phone to:</p>
+<p>To show live information, the app connects from your phone to:</p>
 <ul>
 <li><strong>SL and Trafiklab</strong> (Samtrafiken), for departures, journeys, notices and vehicle positions. They receive the request, for example which station's departures you asked for or the start and end of a trip, and, like every web service, your IP address.</li>
 <li><strong>Apple Maps</strong>, for maps, satellite pictures and place names.</li>
+<li><strong>Linje's relay</strong>, a small server hosted at Cloudflare, for the buses' live positions and arrival times, which it fetches from Trafiklab. Every phone gets the same answer, so the request says nothing about you. The relay stores nothing and writes no logs; like every web service, Cloudflare sees your IP address while it answers.</li>
 </ul>
-<p>These services handle that information under their own privacy policies. Linje's maker never receives it.</p>
+<p>SL, Trafiklab, Apple and Cloudflare handle that information under their own privacy policies. Linje's maker does not keep or look at any of it.</p>
 <h2>What we collect</h2>
-<p>Nothing. Linje's maker operates no server for the app and receives no personal data from it. If you take part in Apple's TestFlight testing or share diagnostics with developers in your iPhone's settings, Apple may pass on crash reports that do not identify you.</p>
+<p>Nothing. The relay for the buses stores nothing, and Linje's maker receives no personal data from the app. If you take part in Apple's TestFlight testing or share diagnostics with developers in your iPhone's settings, Apple may pass on crash reports that do not identify you.</p>
 <h2>Children</h2>
 <p>The app is not aimed at children and collects nothing from anyone.</p>
 <h2>Changes</h2>
